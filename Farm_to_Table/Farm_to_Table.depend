@@ -1,0 +1,62 @@
+# depslib dependency file v1.0
+1512140697 source:c:\users\ryhof\downloads\csci_1300\cpp files\farm_to_table\main.cpp
+	<iostream>
+	"Restaurant.h"
+	"Inventory.h"
+
+1510696426 c:\users\ryhof\downloads\csci_1300\cpp files\farm_to_table\include\class1.h
+
+1510696441 c:\users\ryhof\downloads\csci_1300\cpp files\farm_to_table\include\class2.h
+
+1510696476 source:c:\users\ryhof\downloads\csci_1300\cpp files\farm_to_table\src\class1.cpp
+	"class1.h"
+
+1510696485 source:c:\users\ryhof\downloads\csci_1300\cpp files\farm_to_table\src\class2.cpp
+	"class2.h"
+
+1512249479 source:c:\users\ryhof\downloads\csci_1300\cpp files\farm_to_table\src\restaurant.cpp
+	"Restaurant.h"
+	"Inventory.h"
+	<iostream>
+	<fstream>
+	<cstdlib>
+
+1512234137 c:\users\ryhof\downloads\csci_1300\cpp files\farm_to_table\include\restaurant.h
+	<iostream>
+
+1511156850 source:c:\users\ryhof\downloads\csci_1300\cpp files\farm_to_table\src\menu.cpp
+	"Menu.h"
+
+1511156910 c:\users\ryhof\downloads\csci_1300\cpp files\farm_to_table\include\menu.h
+	"Restaurant.h"
+	<iostream>
+	<string>
+	<istream>
+	<cstdlib>
+	<fstream>
+
+1510866401 source:c:\users\ryhof\downloads\csci_1300\cpp files\farm_to_table\src\money.cpp
+	"Money.h"
+
+1510866401 c:\users\ryhof\downloads\csci_1300\cpp files\farm_to_table\include\money.h
+
+1510866373 source:c:\users\ryhof\downloads\csci_1300\cpp files\farm_to_table\src\staff.cpp
+	"Staff.h"
+
+1510866373 c:\users\ryhof\downloads\csci_1300\cpp files\farm_to_table\include\staff.h
+
+1511041659 source:c:\users\ryhof\downloads\csci_1300\cpp files\farm_to_table\src\stock.cpp
+	"Stock.h"
+
+1511041587 c:\users\ryhof\downloads\csci_1300\cpp files\farm_to_table\include\stock.h
+	<iostream>
+	<chrono>
+	<fstream>
+
+1512140783 c:\users\ryhof\downloads\csci_1300\cpp files\farm_to_table\include\inventory.h
+	<iostream>
+	<iomanip>
+
+1512178063 source:c:\users\ryhof\downloads\csci_1300\cpp files\farm_to_table\src\inventory.cpp
+	"Inventory.h"
+
