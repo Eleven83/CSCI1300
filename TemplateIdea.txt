@@ -1,0 +1,69 @@
+Name: Ryan Hoffman
+TA: Stephen Hutt
+Recitation: 206
+
+Project Title:	   
+                       __--'''--__
+		    _-'           '-_  
+		 _-'       ___       '-_
+		/         |___|         \
+	       /|                       |\
+		|    _______________    |
+		|   *_FARM to TABLE_*   |
+		|      |\  /|\  /|      |  
+		|      | \/ | \/ |      |
+		|      | /\ | /\ |      |
+		|______|/__\|/__\|______|
+		
+=====================================================================
+What is the problem you are solving?
+---------------------------------------------------------------------
+The problem I will solve is Thanksgiving dinner time! A small family is living off the land and trying to eat healthy. 
+They plan to grow several different types vegetables, herbs, and potatoes. 
+They will work the farm all year and have a giant harvest feast for Thanksgiving. 
+If they grow a surplus amount of food they will invite more family and friends over to share.
+
+
+---------------------------------------------------------------------
+How are you going to solve this problem?
+---------------------------------------------------------------------
+First, the Farmer Family needs a way (possibly a file) to keep track of what has been planted, when it was planted, and how many days it takes to grow.
+They will also need an inventory file to keep track of what has already been harvested and is being stored. 
+They need to be able to tell if they have too much food so they can invite more people if necesary.
+
+
+---------------------------------------------------------------------
+Describe each of the classes you are going to make.
+(Reference your header files)
+---------------------------------------------------------------------
+Crops will be a class that all other classes are a part of:
+	Crops.h will have variables for the current date,... methods to ...   
+
+Each crop will have its own class:
+	Lettuce.h will have variables for grow period, harvest time,... methods to... 
+	Carrots.h will have variables for grow period, harvest time,... methods to... 
+	Squash.h will have variables for grow period, harvest time,... methods to... 
+	Corn.h will have variables for grow period, harvest time,... methods to... 
+	Greenbeans.h will have variables for grow period, harvest time,... methods to... 
+	BrusselsSprouts.h will have variables for grow period, harvest time,... methods to... 
+	Thyme.h will have variables for grow period, harvest time,... methods to... 
+	Rosemary.h will have variables for grow period, harvest time,... methods to...
+	SweetPotato.h will have variables for grow period, harvest time,... methods to...  
+
+---------------------------------------------------------------------
+How will you use an array of user defined type?
+---------------------------------------------------------------------
+	I can use an array to store the names of all the crops.
+
+---------------------------------------------------------------------
+How will you test your project?
+---------------------------------------------------------------------
+	Build each function separately and use the main.cpp to test.
+
+
+---------------------------------------------------------------------
+What are the 'edge cases' for your project? How will you handle them?
+---------------------------------------------------------------------
+	The only edge case I have is if there is a surplus amount of food at the end of the year. 
+	In which case the Farmer Family will invite more people to the feast. This can be done with a 
+	simple cout statement.
